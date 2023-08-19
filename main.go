@@ -19,8 +19,10 @@ func main() {
 	fmt.Scanln(&b)
 
 	switch pilihan {
-	case 1:
+  case 1:
 		hasil = a + b
+	case 2:
+		hasil = a - b
 	}
 
 	fmt.Println("Hasilnya adalah:", hasil)

@@ -25,6 +25,8 @@ func main() {
 		hasil = a - b
   case 3:
 		hasil = a * b
+  case 4:
+		hasil = a / b
 	}
 
 	fmt.Println("Hasilnya adalah:", hasil)

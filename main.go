@@ -18,5 +18,10 @@ func main() {
 	fmt.Print("Masukkan angka kedua: ")
 	fmt.Scanln(&b)
 
+	switch pilihan {
+	case 3:
+		hasil = a * b
+	}
+
 	fmt.Println("Hasilnya adalah:", hasil)
 }

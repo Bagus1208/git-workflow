@@ -19,7 +19,13 @@ func main() {
 	fmt.Scanln(&b)
 
 	switch pilihan {
-	case 4:
+  case 1:
+		hasil = a + b
+	case 2:
+		hasil = a - b
+  case 3:
+		hasil = a * b
+  case 4:
 		hasil = a / b
 	}
 
